@@ -1,0 +1,12 @@
+/* Header includes the logo and nav */	
+header {
+	font-family: Verdana, sans-serif;		
+	font-size: 0.875em;
+	font-weight: bold;
+}
+
+#logo {
+	color: Medium Aquamarine;
+}
+
+	
