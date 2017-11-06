@@ -43,7 +43,7 @@ nav {
 	
 }
 
-nav ul, nav ul li, {
+nav ul, nav ul li {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
@@ -69,7 +69,7 @@ main {
 	padding-top: 116px;
 }
 
-div {
+div, lead-story {
 	display: block;
 }
 
@@ -101,13 +101,14 @@ div {
 
 .feature-image {
 	display: flex;
-	flex-direction: column:
+	flex-direction: column;
 	justify-content: center;
 	height: 300px;
 	color: white;
 }
 
 .lead-story .feature-image {
+	width: 630px;
 	background-image: url("../images/img-story-main.png");
 	text-align: left;
 	font-size: 2em;
@@ -124,4 +125,29 @@ div {
 
 .cat-ceo {
 	background-image: url("../images/img-story-1.png")
+}
+
+.stories {
+	display: flex;	
+	justify-content: space-between;
+	margin-top: 17px;
+}
+
+.story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+
+}
+
+.story h2, p {
+	display: block;
+}
+
+.narrative {
+	margin-top: 16px;
+}
+
+.stories .text-only {
+	height: 250px;
 }
